@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #573232;
+}
+
+header {
+    background-color: #573232;
+    padding: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #573232;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+#projects .project {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.project a {
+    color: black;
+}
+
+footer {
+    background-color: #573232;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile-card {
+    position: fixed;
+    right: 70px;
+    top: 50px;
+    width: 250px;
+    background-color: #574646;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profile-card img.profile-img {
+    width: 100%; /* Bilde tar hele bredden av kortet */
+    height: auto; /* Skalerer bildet proporsjonalt */
+    margin-bottom: 15px;
+    border-radius: 0; /* Fjerner runding av bilde */
+    object-fit: cover; /* Fyller container uten å forvrenge bildet */
+}
+
+.profile-card .profile-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-card .profile-info p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.profile-card a {
+    color: #4e1818;
+    text-decoration: none;
+}
+
+.profile-card a:hover {
+    text-decoration: underline;
+}
+
+.content-wrapper {
+    margin-right: 300px; /* for å gi plass til profilkortet */
+}
+
+#about {
+    padding: 40px 20px;
+    max-width: 600px; /* Setter en maks bredde på seksjonen */
+    margin: 0 auto; /* Sørger for at innholdet er midtstilt */
+}
+
+#experience {
+    padding: 40px 20px;
+    max-width: 600px; /* Setter en maks bredde på seksjonen */
+    margin: 0 auto; /* Sørger for at innholdet er midtstilt */
+}
+
+.job {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; /* Midtstiller innholdet */
+}
+
+.job h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #573232;
+}
+
+.job p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.job p strong {
+    color: #573232;
+}
